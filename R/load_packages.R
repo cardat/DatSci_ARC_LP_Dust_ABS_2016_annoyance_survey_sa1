@@ -1,14 +1,8 @@
 load_packages <- function(do_it = T){
   pkgs <- c("targets",
             "yaml",
-            "sf",
             "data.table",
-            "terra",
-            "sf",
-            "raster",
-            "exactextractr",
-            "lubridate",
-            "ncdf4")
+            "sf")
   ipak <- function(pkg){
     new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
     if (length(new.pkg)) 

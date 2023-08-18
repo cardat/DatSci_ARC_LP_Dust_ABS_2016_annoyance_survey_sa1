@@ -66,4 +66,13 @@ list(
       dat_shp_climate
     )
   )
+  ,
+  ## select SA1s ####
+  ## sample_sa1s ###
+  tar_target(
+    sample_sa1s,
+    do_sample_sa1s(
+      dat_mrg_sa1_climate
+    )
+  )
 )
