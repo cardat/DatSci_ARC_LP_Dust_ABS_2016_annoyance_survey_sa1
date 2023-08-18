@@ -1,0 +1,17 @@
+## set the root directory ## 
+# working_lucas
+rootdir: "C:/Users/291828H/cloudstor/Shared"
+
+## set the data directories and data files ##
+# Shape
+shpdir: "Environment_General/ABS_data/ABS_Census_2016/abs_sa1_2016_data_provided"
+shpfile: "SA1_2016_AUST.shp"
+shpdir_climate: "Environment_General/Ecoregions_climate_zones_BOM/RainfallZones/data_derived"
+shpfile_climate: "srngrp_GDA94.shp"
+
+popdir: "Environment_General/ABS_data/ABS_GCP_2016/data_provided/SA1/AUST"
+popfile: "2016Census_G01_AUS_SA1.csv"
+
+
+
+dat_derived_dir: "data_derived"

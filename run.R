@@ -1,0 +1,7 @@
+library(targets)
+tar_source()
+load_packages(T)
+config <- yaml::read_yaml("config.yaml")
+lapply(list.files("R", full.names = TRUE), source)
+tar_visnetwork(targets_only = T)
+tar_make()
